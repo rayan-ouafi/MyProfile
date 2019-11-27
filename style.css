@@ -10,7 +10,8 @@ h2, h3	{color: #293A80;
 	line-height: 0.5}
 a { color : blue; }
 
-.list-inline	{padding: 0px 60px; display: inline; font-size: 45px}
+.list-inline	{padding: 0px 60px; display: inline;}
+.list-inlinereso {padding: 0px 60px; display: inline; font-size: 45px}
 
 .container	{width: 700px; 
 	margin: 30px auto;}  
@@ -20,7 +21,8 @@ a { color : blue; }
 }
 @media (max-width: 540px) {
 	.container	{width: 400px}
-	.list-inline {display: line}}
+	.list-inline {display: line}
+	.list-inlinereso {display: line}
 
 .card-white {background: white;
     padding: 30px;
